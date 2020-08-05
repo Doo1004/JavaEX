@@ -11,7 +11,7 @@ public class TypeEx {
 //		charEx();
 		constantEx();
 	}
-
+	
 	// 상수 연습(Constant)
 	public static void constantEx() {
 		//변하지 않는 데이터
