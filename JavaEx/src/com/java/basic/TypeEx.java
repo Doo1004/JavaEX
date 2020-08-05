@@ -19,6 +19,7 @@ public class TypeEx {
 		// ""	<- String
 		char ch1 = 'A';
 		char ch2 = '한';
+
 		
 		System.out.println("A -> " + ch1);
 		System.out.println("한 -> " + ch2);
