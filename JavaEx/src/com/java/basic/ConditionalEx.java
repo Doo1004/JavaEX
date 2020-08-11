@@ -15,7 +15,8 @@ public class ConditionalEx {
 //		doWhileEx();
 //		forEx();
 //		continueEx();
-		breakEx();
+//		breakEx();
+//		randomEx();
 	}
 	
 	// 반복의 횟수를 알 수 있을 떄 for
@@ -287,5 +288,18 @@ public class ConditionalEx {
 			num++;
 		}
 		System.out.println(num);
+	}
+	
+	
+	public static void randomEx() {
+		//복수번의 랜덤 (1 ~ 6)을 뽑아서 합산
+		int rollCnt = 6;	//횟수
+		int total = 0;		// 합산변수
+		
+		for (int i = 1; i <= rollCnt; i++) {
+			//랜덤으로 주사위 값을 추출
+			int num = (int)(Math.random()*6) + 1;
+			
+		}
 	}
 }
