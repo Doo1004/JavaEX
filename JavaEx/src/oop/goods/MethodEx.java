@@ -21,10 +21,9 @@ public class MethodEx {
 	private static double sum(double ...values) {
 		System.out.println("인수의 갯수 : " + values.length);
 		double total = 0;
-		for (double val : values) {	// 향상된 for문
+		for (double val : values) {	// 향상된 for문 || 다형성 overloading(중복)
 			total += val;
 		}
-		
 		return total;
 	}
 	
