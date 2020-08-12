@@ -82,7 +82,7 @@ public class ArrayEx {
 		System.out.println("table[0].length:" + table[0].length);
 		
 		// 루프를 돌면서 해당 배열 내부의 모든 값을 합산
-		int sum = 0;		// 합산 벼수
+		int sum = 0;		// 합산 변수
 		for (int row = 0; row < table.length; row++) {
 			// 행 루프	
 			int subtotal = 0;
