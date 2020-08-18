@@ -1,8 +1,8 @@
-package oop.goods.point.v4;
+package oop.goods.shape.v2;
 
-// v4
+// v5
 // 상속
-public class Point {
+public class Point implements Drawable{
 	// 필드
 	
 	/*
@@ -43,6 +43,8 @@ public class Point {
 	}
 	
 	// 메서드
+	// Drawable 인터페이스를 구현한 메서드
+	@Override
 	public void draw() {
 		System.out.printf("점 (%d, %d)을 그렸습니다.\n", x, y);
 	}
