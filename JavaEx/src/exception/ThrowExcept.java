@@ -20,7 +20,7 @@ public class ThrowExcept {
 		throws CustomArithmeticException{
 			
 		}
-		double result;
+		double result = 0;
 		
 		result = num1 / num2;
 		

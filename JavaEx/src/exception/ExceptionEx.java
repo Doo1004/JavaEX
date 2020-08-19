@@ -18,8 +18,8 @@ public class ExceptionEx {
 		ThrowExcept ex = new ThrowExcept();
 		
 		try {
-//			ex.executeCheckedException(); // 체크드 익셉션 발생
-			ex.executeUncheckedException();
+//			ex.executeCheckedException(); 		// 체크드 익셉션 발생
+//			ex.executeUncheckedException();		// 언체크드 익셉션 발생 
 			System.out.println("10/0 = " + ex.divide(10, 0));
 		} catch (IOException e) {
 			System.err.println("예외 메시지" + e.getMessage());
