@@ -10,7 +10,7 @@ public class ExceptionEx {
 //		arithmeticExceptionEx();
 //		indexOutOfBoundEx();
 //		nullPointExceptionEx();
-		customExceptionEx()
+		customExceptionEx();
 	}
 	
 	private static void customExceptionEx() {

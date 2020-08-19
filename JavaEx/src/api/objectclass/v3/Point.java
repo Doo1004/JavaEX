@@ -71,7 +71,7 @@ public class Point implements Cloneable {
 		Point clone = null;
 		
 		try {
-			clone = I(Point)clone();		// 복제한 후 다운캐스팅
+			clone = (Point)clone();		// 복제한 후 다운캐스팅
 		} catch (CloneNotSupportedException e) {
 			System.err.println("복제 불가 개체!");
 		}
