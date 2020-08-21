@@ -15,7 +15,7 @@ public class BoxApp {
 		System.out.println("박스의 내용물 : " + content);
 		
 		Box<String> strBox = new Box<>();
-		strBox.setContent("Java");						// 가능(String 타입 지정)	
+		strBox.setContent("Java");				 		// 가능(String 타입 지정)	
 		
 		// 값을 꺼내보기
 		String strContent = strBox.getContent();
