@@ -31,7 +31,7 @@ public class CharStreamEx {
 			
 			int data = 0;			// 데이터 저장 변수
 			while((data = fr.read())!= -1) {
-				// 실제 데이터는 char
+				// 실제 데이터는 char -> 다운캐스팅
 				System.out.println((char)data);
 			}
 			
