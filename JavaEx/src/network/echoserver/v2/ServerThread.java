@@ -16,7 +16,7 @@ public class ServerThread extends Thread {
 	// 필드 : 통신을 위한 소켓
 	private Socket socket;
 	
-	// 생성자
+	// 생성자 
 	public ServerThread(Socket socket) {
 		this.socket = socket;
 	}
